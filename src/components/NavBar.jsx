@@ -14,11 +14,11 @@ const navLinks = [
 export const NavBar = () => {
 
   return (
-    <nav className="flex items-center justify-center space-x-10 px-40 pt-6 w-full relative">
+    <nav className="flex items-center justify-around space-x-10 pt-6 w-full">
       
       {/* LOGO */}
-      <div className="flex  m-auto">
-        <h1 className="font-title text-gray-100 text-4xl select-none">Twain</h1>
+      <div className="">
+        <h1 className="font-title text-gray-100 text-5xl select-none">Twain</h1>
       </div>
 
       {/* LINKS */}
@@ -29,7 +29,7 @@ export const NavBar = () => {
               {" "}
               <a
                 href={el.href}
-                className="hover:text-red-400 text-gray-100 cursor-pointer text-xs uppercase font-sans font-medium select-none"
+                className="hover:text-red-400 hover:transition-all hover:duration-500 text-gray-100 cursor-pointer text-xs uppercase font-sans font-medium select-none"
               >
                 {el.text}
               </a>

@@ -6,9 +6,6 @@ module.exports = {
   ],
   theme: {
     extend: {
-      backgroundImage: {
-        'hero-image': "url('assets/images/chef_meal.jpg')",
-      },
       fontFamily: {
         sans: ["Poppins", "sans-serif"],
         body: ["Playfair Display", "serif"],

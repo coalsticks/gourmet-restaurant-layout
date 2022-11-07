@@ -1,3 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.hero-bg-image{
+    background: url('assets/images/chef_meal.jpg');
+    background-position: center;
+    background-size: 100%;
+}
