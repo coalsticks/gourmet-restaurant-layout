@@ -3,7 +3,9 @@
 @tailwind utilities;
 
 .hero-bg-image{
-    background: url('assets/images/chef_meal.jpg');
+    background: url('assets/images/bowl_meal.jpg');
     background-position: center;
-    background-size: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
 }
